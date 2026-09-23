@@ -1,0 +1,6 @@
+{
+  "name": "Invitación Digital Interactiva",
+  "description": "Invitación digital interactiva de alta gama rediseñada para bodas y eventos especiales, lista para publicar en GitHub Pages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

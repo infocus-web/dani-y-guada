@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+  .font-playfair {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  .font-pinyon {
+    font-family: 'Pinyon Script', cursive;
+  }
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .gold-gradient-text {
+    background: linear-gradient(135deg, #997738 0%, #c5a059 40%, #87682d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gold-border {
+    border-color: rgba(197, 160, 89, 0.35);
+  }
+  .gold-glow {
+    box-shadow: 0 4px 20px rgba(197, 160, 89, 0.12);
+  }
+}
+
+/* Minimalist paper aesthetic */
+.paper-card {
+  background-color: #fdfbf7;
+  box-shadow: 0 10px 40px -10px rgba(70, 60, 50, 0.12), 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.inner-border {
+  border: 1px solid rgba(197, 160, 89, 0.3);
+}
+
+.inner-border-double {
+  border: 1px solid rgba(197, 160, 89, 0.25);
+  outline: 1px solid rgba(197, 160, 89, 0.15);
+  outline-offset: 4px;
+}
